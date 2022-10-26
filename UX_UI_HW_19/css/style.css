@@ -4,28 +4,36 @@ body {
 header {
   background-color: #373738;
   padding: 15px;
+  color: #D9fB03;
+}
+.heading {
+  color: #D9fB03;
 }
 header ul {
   float: right;
-  color: rgb(255, 255, 255);
+  color: #D9fB03;
 }
 header li {
   display: inline-block;
   padding: 0px 5px;
-  color: ;
+  color:#D9fB03 ;
+}
+h1 { 
+  color:#D9fB03
 }
 header p {
-  display: inline-block;
+  display:box;
 }
 .heroImg {
-  background-color: #EBEBEB;
-  padding: 100px 15px;
+  background-color: black;
+  padding: 150px 15px;
 }
 .content {
   max-width: 300px;
   margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
+  padding: -8px;
+  background-color: black;
+  color: #EBEBEB;
   text-align: center;
 }
 button {
@@ -38,7 +46,7 @@ button {
 footer {
   background-color: #373738;
   padding: 5px;
-  color: white;
+  color: #D9fB03;
 }
 footer ul {
   list-style: none;
@@ -46,7 +54,7 @@ footer ul {
 }
 footer li {
   display: inline-block;
-  padding: 0px 7px;
+  padding: 0px 8px;
 }
 .heading {
   text-align: center;
