@@ -6,8 +6,12 @@ header {
   padding: 15px;
   color: #D9fB03;
 }
+ {
+
+}
 .heading {
   color: #D9fB03;
+  background-color: black;
 }
 header ul {
   float: right;
@@ -15,14 +19,20 @@ header ul {
 }
 header li {
   display: inline-block;
-  padding: 0px 5px;
+  padding: 0px 8px;
   color:#D9fB03 ;
 }
 h1 { 
-  color:#D9fB03
+  color:#D9fB03;
+  background-color: black;
+  
 }
-header p {
+p {
   display:box;
+  color: #D9fB03;
+    text-indent: none;
+    text-transform: normal;
+    background-color: black;
 }
 .heroImg {
   background-color: black;
@@ -41,12 +51,13 @@ button {
   background-color: #373738;
   color: white;
   font-size: 15px;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 footer {
   background-color: #373738;
-  padding: 5px;
+  padding: 8px;
   color: #D9fB03;
+  text-align: center;
 }
 footer ul {
   list-style: none;
