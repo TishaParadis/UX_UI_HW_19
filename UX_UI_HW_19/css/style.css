@@ -4,7 +4,7 @@ body {
 header {
   display: block;
   background-color: #373738;
-  padding: 45px;
+  padding: 5px;
   color: #D9fB03;
 
 }
@@ -14,7 +14,7 @@ header ul {
 }
 header li {
   display: inline-block;
-  padding: 0px 8px;
+  padding: 15px 8px;
   color:#D9fB03 ;
 }
 h1 { 
@@ -24,7 +24,6 @@ h1 {
 }
 p {
   display:box;
-  color: #D9fB03;
     text-indent: none;
     text-transform: normal;
     background-color: black;
@@ -89,6 +88,7 @@ footer li {
   padding-top: 0;
   background-color: black;
   color: #EBEBEB;
+  text-align: center;
 }
 .workGrid {
   display: grid;
