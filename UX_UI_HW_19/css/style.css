@@ -4,7 +4,7 @@ body {
 header {
   display: block;
   background-color: #373738;
-  padding: 5px;
+  padding: 8px;
   color: #D9fB03;
 
 }
@@ -14,7 +14,7 @@ header ul {
 }
 header li {
   display: inline-block;
-  padding: 15px 8px;
+  padding: -55px 98px;
   color:#D9fB03 ;
 }
 h1 { 
@@ -71,7 +71,7 @@ footer li {
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
-  padding: 60px 30px;
+  padding: 100px 30px;
   background-color: black;
   color: #EBEBEB;
 }
