@@ -6,7 +6,6 @@ header {
   background-color: #373738;
   padding: 8px;
   color: #D9fB03;
-
 }
 header ul {
   float: right;
@@ -20,7 +19,6 @@ header li {
 h1 { 
   color:#D9fB03;
   background-color: black;
-  
 }
 p {
   display:box;
