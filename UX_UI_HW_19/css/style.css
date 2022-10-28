@@ -4,12 +4,9 @@ body {
 header {
   display: block;
   background-color: #373738;
-  padding: 15px;
+  padding: 45px;
   color: #D9fB03;
-}
-.heading {
-  color: #D9fB03;
-  background-color: black;
+
 }
 header ul {
   float: right;
@@ -21,7 +18,7 @@ header li {
   color:#D9fB03 ;
 }
 h1 { 
-  color:whitesmoke;
+  color:#D9fB03;
   background-color: black;
   
 }
@@ -70,6 +67,8 @@ footer li {
   padding: 15px 5px;
   font-size: 30px;
 }
+
+
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
