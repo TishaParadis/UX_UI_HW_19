@@ -1,14 +1,20 @@
 body {
   margin: 0;
 }
+.background_image {
+  background-image: url(/UX_UI_HW_19/images/hd\ texture\ background.jpg) ;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+}
 header {
   display: block;
-  background-color: #373738;
-  padding: 8px;
+  background-color: transparent;
+  padding: 18px;
   color: #D9fB03;
 }
 header ul {
-  float: right;
+  text-align: center;
   color: #D9fB03;
 }
 header li {
@@ -18,35 +24,35 @@ header li {
 }
 h1 { 
   color:#D9fB03;
-  background-color: black;
+  background-color: transparent;
 }
 p {
   display:box;
     text-indent: none;
     text-transform: normal;
-    background-color: black;
+    background-color: transparent;
 }
 .heroImg {
-  background-color: black;
+  background-color: transparent;
   padding: 10px 15px;
 }
 .content {
   max-width: -20px;
   margin: 0 auto;
   padding: 108px;
-  background-color: black;
+  background-color:transparent;
   color: #EBEBEB;
   text-align: center;
 }
 button {
   padding: 15px;
   background-color: #373738;
-  color: white;
-  font-size: 15px;
+  color: #D9fB03;
+  font-size: 17px;
   border-radius: 8px;
 }
 footer {
-  background-color: #373738;
+  background-color: transparent;
   padding: 8px;
   color: #D9fB03;
   text-align: center;
@@ -62,7 +68,7 @@ footer li {
 .heading {
   text-align: center;
   padding: 15px 5px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 
@@ -70,12 +76,12 @@ footer li {
 .flexContainer {
   display: flex;
   padding: 100px 30px;
-  background-color: black;
+  background-color: transparent;
   color: #EBEBEB;
 }
 .flexContainer div {
   width: 33%;
-  padding: 25px;
+  padding: 35px;
   background-color: black;
   color: #EBEBEB;
 }
@@ -84,9 +90,10 @@ footer li {
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
-  background-color: black;
+  background-color: transparent;
   color: #EBEBEB;
   text-align: center;
+  columns: 50% 50%;
 }
 .workGrid {
   display: grid;
@@ -114,7 +121,7 @@ footer li {
   grid-area: img3;
 }
 .img1, .img2, .img3, .content1, .content2, .content3 {
-  padding: 80px;
+  padding: 50px;
 }
 .content1 {
   grid-area: content1;
