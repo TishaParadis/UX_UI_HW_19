@@ -3,35 +3,35 @@ body {
 }
 .background_image {
   background-image: url(/images/hd\ texture\ background.jpg);
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 header {
   display: block;
   background-color: transparent;
-  color: #D9fB03;
+  color: #d9fb03;
 }
 header ul {
   text-align: center;
-  color: #D9fB03;
+  color: #d9fb03;
 }
 /* header list*/
 header li {
   display: inline-block;
   padding: 22px;
-  color:#D9fB03 ;
+  color: #d9fb03;
   font-size: larger;
 }
-h1 { 
-  color:#D9fB03;
+h1 {
+  color: #d9fb03;
   background-color: transparent;
 }
 p {
-  display:box;
-    text-indent: none;
-    text-transform: normal;
-    background-color: transparent;
+  display: box;
+  text-indent: none;
+  text-transform: normal;
+  background-color: transparent;
 }
 .heroImg {
   background-color: transparent;
@@ -41,21 +41,21 @@ p {
   max-width: -20px;
   margin: 0 auto;
   padding: 108px;
-  background-color:transparent;
-  color: #EBEBEB;
+  background-color: transparent;
+  color: #ebebeb;
   text-align: center;
 }
 button {
   padding: 15px;
   background-color: #373738;
-  color: #D9fB03;
+  color: #d9fb03;
   font-size: 17px;
   border-radius: 8px;
 }
 footer {
   background-color: transparent;
   padding: 8px;
-  color: #D9fB03;
+  color: #d9fb03;
   text-align: center;
 }
 footer ul {
@@ -72,19 +72,18 @@ footer li {
   font-size: 40px;
 }
 
-
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
   padding: 100px 30px;
   background-color: transparent;
-  color: #EBEBEB;
+  color: #ebebeb;
 }
 .flexContainer div {
   width: 33%;
   padding: 35px;
   background-color: black;
-  color: #EBEBEB;
+  color: #ebebeb;
 }
 
 /* My Work Section */
@@ -92,7 +91,7 @@ footer li {
   padding: 60px 30px;
   padding-top: 0;
   background-color: transparent;
-  color: #EBEBEB;
+  color: #ebebeb;
   text-align: center;
   columns: 50% 50%;
 }
@@ -101,10 +100,9 @@ footer li {
   grid-template-columns: 50% 50%;
   grid-template-rows: 350px 350px 350px;
   grid-template-areas:
-  "img1 content1"
-  "img2 content2"
-  "img3 content3"
-  ;
+    "img1 content1"
+    "img2 content2"
+    "img3 content3";
 }
 .workGrid img {
   width: 100%;
@@ -121,7 +119,12 @@ footer li {
 .img3 {
   grid-area: img3;
 }
-.img1, .img2, .img3, .content1, .content2, .content3 {
+.img1,
+.img2,
+.img3,
+.content1,
+.content2,
+.content3 {
   padding: 50px;
 }
 .content1 {
