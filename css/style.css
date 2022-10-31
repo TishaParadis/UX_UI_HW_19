@@ -10,17 +10,17 @@ body {
 header {
   display: block;
   background-color: transparent;
-  padding: 18px;
   color: #D9fB03;
 }
 header ul {
-  text-align: right;
+  text-align: center;
   color: #D9fB03;
 }
 header li {
   display: inline-block;
-  padding: -55px 98px;
+  padding: 22px;
   color:#D9fB03 ;
+  font-size: larger;
 }
 h1 { 
   color:#D9fB03;
