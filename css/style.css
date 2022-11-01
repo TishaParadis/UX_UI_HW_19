@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .background_image {
-  background-image: url(/images/hd\ texture\ background.jpg);
+  background-image: url(/images/hd_texture_background.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
